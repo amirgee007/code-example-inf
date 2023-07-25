@@ -1,3 +1,9 @@
+# Code style
+
+Uniformly use phpstorm's default formatting.
+
+Press `Shift+Alt+L` to auto-format your code.
+
 # Some examples for code standard
 
 [best practices examples from INF - By Amir](https://docs.google.com/document/d/198pZCr6U-4nYTSnxpp_hA-UaVgDxIGdjdK_MwCPKtxQ/edit)

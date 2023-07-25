@@ -8,9 +8,4 @@ class ExampleService
     {
         // Do something
     }
-
-    public function test(): string
-    {
-        return 'test';
-    }
 }

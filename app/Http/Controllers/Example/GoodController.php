@@ -9,8 +9,8 @@ use App\Repositories\UserRepository;
 class GoodController extends BaseController
 {
     /**
-     * Just let the class instance as a construct parameter
-     * The framework will handle it automatically
+     * Just let the class instance as a construct parameter,
+     * and the framework will handle it automatically
      */
     public function __construct(private readonly UserRepository $user)
     {

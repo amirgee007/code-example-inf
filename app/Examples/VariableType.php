@@ -6,16 +6,13 @@ use App\Services\ExampleService;
 
 class VariableType
 {
-    public function good(): string
+    public function index(): void
     {
-        /** @var ExampleService $service */
         $service = app()->make(ExampleService::class);
-        return $service->test(); // Can jump to source
-    }
+        $service->handle(); // Can't jump to source
 
-    public function bad(): string
-    {
-        $user = app()->make(ExampleService::class);
-        return $user->test(); // Can't jump to source
+        /** @var ExampleService $serviceWithPhpDoc */
+        $serviceWithPhpDoc = app()->make(ExampleService::class);
+        $serviceWithPhpDoc->handle(); // Can jump to source
     }
 }
