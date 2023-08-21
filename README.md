@@ -1,12 +1,20 @@
-# Code style
+# Code formatting
 
 Uniformly use phpstorm's default formatting.
 
 Press `Shift+Alt+L` to auto-format your code.
 
-# Some examples for code standard
+---
 
-[best practices examples from INF - By Amir](https://docs.google.com/document/d/198pZCr6U-4nYTSnxpp_hA-UaVgDxIGdjdK_MwCPKtxQ/edit)
+# Related Documents
+
+[Best practices examples from INF - By Amir](https://docs.google.com/document/d/198pZCr6U-4nYTSnxpp_hA-UaVgDxIGdjdK_MwCPKtxQ/edit)
+
+[PER Coding Style 2.0](https://www.php-fig.org/per/coding-style/)
+
+---
+
+# Some examples for code standard
 
 [Route](./routes/web.php)
 
